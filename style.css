@@ -91,3 +91,13 @@ a{
     height: 120px;
 
 }
+#image{
+    max-width: 50vw;
+    display: block;
+    margin: auto;
+  }
+@media screen and (max-width: 620px){
+    #image{
+        max-width: 20vw;
+    }
+}
